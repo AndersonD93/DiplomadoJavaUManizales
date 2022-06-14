@@ -9,8 +9,9 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 public class EjemploJdbcDelete {
+    /*
     public static void main(String[] args) {
-        try (Connection con = ConexionBaseDatos.getInstance()){
+        try (Connection con = ConexionBaseDatos.getConnection()){
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
             System.out.println("============= LISTAR =============");
             repositorio.listar().forEach(System.out::println);
@@ -27,4 +28,6 @@ public class EjemploJdbcDelete {
             e.printStackTrace();
         }
     }
+
+     */
 }

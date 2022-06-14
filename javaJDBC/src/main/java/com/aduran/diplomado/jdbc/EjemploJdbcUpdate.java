@@ -11,7 +11,9 @@ import java.sql.SQLException;
 import java.util.Date;
 
 public class EjemploJdbcUpdate {
+    /*
     public static void main(String[] args) {
+
         try (Connection con = ConexionBaseDatos.getInstance()){
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
             System.out.println("============= LISTAR =============");
@@ -35,4 +37,6 @@ public class EjemploJdbcUpdate {
             e.printStackTrace();
         }
     }
+
+         */
 }

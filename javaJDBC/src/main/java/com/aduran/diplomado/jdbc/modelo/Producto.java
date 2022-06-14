@@ -10,14 +10,18 @@ public class Producto {
     private Date fechaRegistro;
     private Categoria categoria;
 
+    private String sku;
+
     public Producto() {
     }
 
-    public Producto(Long id, String nombre, Integer precio, Date fechaRegistro) {
+    public Producto(Long id, String nombre, Integer precio, Date fechaRegistro, Categoria categoria, String sku) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
         this.fechaRegistro = fechaRegistro;
+        this.categoria = categoria;
+        this.sku = sku;
     }
 
     public Long getId() {
@@ -60,6 +64,14 @@ public class Producto {
         this.categoria = categoria;
     }
 
+    public String getSku() {
+        return sku;
+    }
+
+    public void setSku(String sku) {
+        this.sku = sku;
+    }
+
     @Override
     public String toString() {
         return "Producto{" +
@@ -67,7 +79,8 @@ public class Producto {
                 ", nombre='" + nombre + '\'' +
                 ", precio=" + precio +
                 ", fechaRegistro=" + fechaRegistro +
-                ", categoria=" + categoria.getNombre() +
+                ", categoria=" + categoria +
+                ", sku='" + sku + '\'' +
                 '}';
     }
 }
