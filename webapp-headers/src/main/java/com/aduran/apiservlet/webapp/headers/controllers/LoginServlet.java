@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     final static String USERNAME="admin";
     final static String PASSWORD="12345";
