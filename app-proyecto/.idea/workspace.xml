@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abc947db-e269-4d4c-97e8-32cab28b37b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Reto2Mintic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto2Mintic/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto2Mintic/src/main/java/Peaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Requerimientos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PruebasJpa/TestJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/MysqlConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/ProductoRepoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/RequerimientoRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp-form/src/main/java/Pruebas/Reto1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp-session/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/dao/RequerimientoImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/modelos/Requerimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/modelos/Requerimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/Irepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/Irepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/servicios/ServicioRequerimientos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/servicios/ServicioRequerimientos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form/target/webapp-form.war" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/target/webapp-form.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form/target/webapp-form/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/target/webapp-form/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-headers/target/webapp-headers.war" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-headers/target/webapp-headers.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BOLXM9E16u5kDFO8kOaSxRxEFv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Desarroll\UdeManizales\app-proyecto\src\main\java" />
+      <recent name="C:\Desarroll\UdeManizales\app-proyecto\src\main\resources" />
+      <recent name="C:\Desarroll\UdeManizales\app-proyecto\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestJpa">
+    <configuration name="PruebasJpa in app-proyecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PruebasJpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PruebasJpa" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJpa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PruebasJpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PruebasJpa" />
+      <option name="MAIN_CLASS_NAME" value="PruebasJpa.TestJpa" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestJpa" />
+        <item itemvalue="JUnit.PruebasJpa in app-proyecto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abc947db-e269-4d4c-97e8-32cab28b37b4" name="Changes" comment="" />
+      <created>1656772225176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656772225176</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

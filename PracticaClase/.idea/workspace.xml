@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3432298d-6ef5-4ae3-9aae-f6cf0106ba4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/MysqlConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/ProductoRepoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/RequerimientoRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp-form/src/main/java/Pruebas/Reto1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp-session/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/dao/RequerimientoImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/modelos/Requerimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/modelos/Requerimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/Irepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/repositorio/Irepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/servicios/ServicioRequerimientos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-requerimiento-producto/src/main/java/servicios/ServicioRequerimientos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form/target/webapp-form.war" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/target/webapp-form.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form/target/webapp-form/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/target/webapp-form/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-headers/target/webapp-headers.war" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-headers/target/webapp-headers.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2BJo4JEOdxkmqOnGFAYCDdqSN9J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3432298d-6ef5-4ae3-9aae-f6cf0106ba4b" name="Changes" comment="" />
+      <created>1656633358609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656633358609</updated>
+    </task>
+    <servers />
+  </component>
+</project>
