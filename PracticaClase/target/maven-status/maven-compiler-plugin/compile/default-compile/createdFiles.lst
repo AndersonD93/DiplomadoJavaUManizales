@@ -1,0 +1,8 @@
+edu\umanizales\practicaclase\entities\ItemCarro.class
+edu\umanizales\practicaclase\consultas\CarroCompraService.class
+edu\umanizales\practicaclase\entities\Producto.class
+edu\umanizales\practicaclase\controller\CarroCompraServlet.class
+edu\umanizales\practicaclase\consultas\CarroCompraServiceImpl.class
+edu\umanizales\practicaclase\entities\CarroCompras.class
+edu\umanizales\practicaclase\consultas\CarroCompraServiceImplOracle.class
+edu\umanizales\practicaclase\entities\Categoria.class
