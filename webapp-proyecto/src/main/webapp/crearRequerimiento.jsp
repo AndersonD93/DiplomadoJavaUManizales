@@ -44,7 +44,7 @@ requerimientos.getFechaFinal().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
     </div>
 
     <div>
-        <label for="fechaInicial">Fecha Registro</label>
+        <label for="fechaInicial">Fecha Inicial</label>
         <div>
             <input type="date" name="fechaInicial" id="fechaInicial" value="<%=fechaIni%>">
         </div>
@@ -54,7 +54,7 @@ requerimientos.getFechaFinal().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
     </div>
 
     <div>
-        <label for="fechaFinal">Fecha Registro</label>
+        <label for="fechaFinal">Fecha Final</label>
         <div>
             <input type="date" name="fechaFinal" id="fechaFinal" value="<%=fechaFin%>">
         </div>

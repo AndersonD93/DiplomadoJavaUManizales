@@ -1,4 +1,5 @@
 modelos\Requerimientos.class
+controladores\cerrarFechaReqServlet.class
 servicios\RequerimientoServicesImp.class
 controladores\LoginEmpresaServlet.class
 util\JpaUtil.class

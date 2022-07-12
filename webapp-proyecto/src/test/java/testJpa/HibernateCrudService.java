@@ -21,9 +21,27 @@ import java.util.Optional;
 public class HibernateCrudService {
 
     public static void main(String[] args) {
-        EntityManager em = JpaUtil.getEntityManager();
+       /* EntityManager em = JpaUtil.getEntityManager();
 
         ProductoServiceImp productoServiceImp= new ProductoServiceImp(em);
+        EntidadServices<Requerimientos>requerimientosEntidadServices= new RequerimientoServicesImp(em);
+
+        String fechaActual="2022-07-23";
+        LocalDate fechaParse=LocalDate.parse(fechaActual);
+
+
+        List<Requerimientos> requerimientosList= requerimientosEntidadServices.listar();
+        requerimientosList.forEach(System.out::println);
+        List<Requerimientos> requerimientosCerrar= new ArrayList<>();
+
+        for(Requerimientos req: requerimientosList){
+            LocalDate fechareq=req.getFechaFinal();
+            if(fechareq.isBefore(fechaParse) || fechareq.isEqual(fechaParse)){
+                requerimientosCerrar.add(req);
+            }
+        }
+        System.out.println("=====req a cerrar=======");
+        requerimientosCerrar.forEach(System.out::println);
 
         System.out.println("====listar====");
         List<Productos> productos = productoServiceImp.listar();
@@ -48,10 +66,6 @@ public class HibernateCrudService {
         System.out.println(idMin);
         System.out.println(nombreMin);
 
-
-
-
-        /*
         ProductoServiceImp productoServiceImp= new ProductoServiceImp(em);
 
         System.out.println("====listar====");
@@ -107,6 +121,73 @@ public class HibernateCrudService {
         List<Requerimientos> requerimientosList=rs.listar();
         requerimientosList.forEach(System.out::println);
         */
+
+        EntityManager em = JpaUtil.getEntityManager();
+        EntidadServices<Requerimientos> requerimientosEntidadServices= new RequerimientoServicesImp(em);
+        List<Requerimientos> requerimientosList= requerimientosEntidadServices.listar();
+        List<Requerimientos> requerimientosCerrar= new ArrayList<>();
+        ProductoServiceImp productoServiceImp= new ProductoServiceImp(em);
+
+        System.out.println("====Insertar nuevo producto====");
+        Productos pc = new Productos();
+        pc.setNombre("nanoQled4");
+        pc.setPrecio(BigDecimal.valueOf(80000));
+        pc.setCantidadOfertada(10);
+        pc.setIdReq(3);
+
+        //productoServiceImp.guardar(pc);
+
+
+        String fechaActual="2022-08-01";
+        LocalDate fechaParse=LocalDate.parse(fechaActual);
+
+        List<Requerimientos> requerimientos1=requerimientosEntidadServices.listar();
+        requerimientos1.forEach(System.out::println);
+        System.out.println("=================================");
+        List<Productos> productos1 = productoServiceImp.listar();
+        productos1.forEach(System.out::println);
+        System.out.println("=================================");
+
+        for(Requerimientos requerimientos: requerimientosList){
+            LocalDate fechareq=requerimientos.getFechaFinal();
+            if(fechareq.isBefore(fechaParse) || fechareq.isEqual(fechaParse)){
+                requerimientosCerrar.add(requerimientos);
+            }
+        }
+        List<Long> listIdcerrar= new ArrayList<>();
+        for (Requerimientos requi: requerimientosCerrar){
+            listIdcerrar.add(requi.getId());
+        }
+        List<Productos> productos = productoServiceImp.listar();
+        List<BigDecimal> precios= new ArrayList<>();
+        List<Productos> productosMinimos= new ArrayList<>();
+        Productos productoMinimo=null;
+
+        List<Long> idlist = new ArrayList<>();
+        for(Long id:listIdcerrar){
+            List<Productos>productos2=new ArrayList<>();
+            for(Productos p: productos){
+                if (id==p.getIdReq()){
+                    productos2.add(p);
+                    idlist.add(p.getId());
+                    precios.add(p.getPrecio());
+                }
+            }
+            BigDecimal precioMinimo=productos2.get(0).getPrecio();
+            productoMinimo=productos2.get(0);
+
+            for (Productos p2:productos2){
+                BigDecimal precioActual=p2.getPrecio();
+
+                if(precioActual.min(precioMinimo)!=precioMinimo){
+                     productoMinimo=p2;
+                }
+            }
+            productosMinimos.add(productoMinimo);
+
+        }
+
+        productosMinimos.forEach(System.out::println);
 
         em.close();
 

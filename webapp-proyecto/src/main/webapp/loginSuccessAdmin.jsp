@@ -9,6 +9,7 @@
 <ul>
     <li><a href="/webapp-proyecto/listarRequerimientos">Listar Requerimientos </a></li>
     <li><a href="/webapp-proyecto/requerimientos/crear">Crear Requerimientos</a></li>
+    <li><a href="/webapp-proyecto/requerimientos/cerrarFecha">Cerrar Requerimiento por fecha</a></li>
     <li><a href="/webapp-proyecto/listarProductosProveedor">Listar Ofertas</a></li>
 </ul>
 
