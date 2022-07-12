@@ -5,6 +5,7 @@ Map
 <String, String> errores = (Map
 <String, String>) request.getAttribute("errores");
 Productos productos= (Productos) request.getAttribute("productos");
+Long idReq= (Long) request.getAttribute("idReq");
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -50,11 +51,9 @@ Productos productos= (Productos) request.getAttribute("productos");
     <div>
                 <label for="idReq">Id Requerimiento</label>
                 <div>
-                    <input type="number" name="idReq" id="idReq" value="">
+                    <input type="number" name="idReq" id="idReq" value="<%=idReq%>">
                 </div>
-                <% if(errores != null && errores.containsKey("idReq")){%>
-                <div style="color:red;"><%=errores.get("idReq")%></div>
-                <% } %>
+               
         </div>
 
 
