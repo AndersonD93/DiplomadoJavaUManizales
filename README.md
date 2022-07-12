@@ -3,7 +3,7 @@ Ejercicio practico JEE
 
 Los proyectos presentados corresponden al modulo1 desarrollado en el diplomado JEE web de la universidad de manizales.
 
-El proyecto final denominado (web-proyecto) corresponde a una aplicación web construida desde su back con Jakarta EE, conexión a bases de datos MYSQL por medio del proveedor de persistencia Hibernate dicho proveedor crea las tablas y establece la conexión a la base de datos en el momento que se levanta la aplicación.
+El proyecto final denominado (web-proyecto) corresponde a una aplicación web construida desde su back con Jakarta EE, conexión a bases de datos MYSQL por medio del proveedor de persistencia Hibernate dicho proveedor crea las tablas y establece la conexión a la base de datos en el momento que se levanta la aplicación, por otro lado utiliza las tecnologías de JSP y Servlets para su presentación desde el front, dicha aplicación se encuentra parametrizada desde su pom.xml para ser desplegada desde el servidor de aplicaciones TOMCAT.
 
 el fin de proyecto permite a un usuario demandante, crear,editar,listar, eliminar y cerrar unos requerimientos de productos para su organización.
 
