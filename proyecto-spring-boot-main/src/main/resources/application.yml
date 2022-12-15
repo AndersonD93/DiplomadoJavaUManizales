@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: project-spring-group-3
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: 'root'
+    url: jdbc:mysql://localhost:3306/db_proyecto
+    password: ''
+  jpa:
+    generate-ddl: 'true'
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update

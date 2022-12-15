@@ -1,0 +1,20 @@
+<div class="container">
+  <label>
+    Email:
+    <input type="text" [formControl]="email" />
+  </label>
+  <p>Value: {{ email.value }}</p>
+  <button (click)="updateEmail()">Update Email</button>
+
+  <section>
+    <label for="name">
+      Name:
+      <input
+        name="name"
+        type="text"
+        [(ngModel)]="name"
+        placeholder="Contact name"
+      />
+    </label>
+  </section>
+</div>
